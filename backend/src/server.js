@@ -31,7 +31,7 @@ const __dirname = path.dirname(__filename);
 app.use("/api/auth", authRoute);
 
 if (process.env.NODE_ENV === "production") {
-  const clientDistPath = path.join(__dirname, "..", "..", "frontend", "dist");
+  const clientDistPath = path.join(__dirname, "..", "..", "frontned", "dist");
   app.use(express.static(clientDistPath));
   console.log("Serving static files from:", clientDistPath);
 
