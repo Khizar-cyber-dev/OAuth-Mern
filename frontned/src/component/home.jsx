@@ -2,11 +2,11 @@ import React from 'react'
 
 const Home = () => {
      const handleLogin = () => {
-    window.location.href = "http://localhost:3000/api/auth/github";
+    window.location.href = "https://oauth-mern.onrender.com/api/auth/github";
   };
 
   const handleLoginWithGoogle = () => {
-    window.location.href = "http://localhost:3000/api/auth/google";
+    window.location.href = "https://oauth-mern.onrender.com/api/auth/google";
   };
   return (
     <div>

@@ -15,7 +15,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: `http://localhost:3000/api/auth/google/callback`,
+      callbackURL: `https://oauth-mern.onrender.com/api/auth/google/callback`,
       // Add these options
       passReqToCallback: true,
       proxy: true // If you're behind a proxy/load balancer
@@ -64,7 +64,7 @@ passport.use(
     {
       clientID: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
-      callbackURL: `http://localhost:3000/api/auth/github/callback`,
+      callbackURL: `https://oauth-mern.onrender.com/api/auth/github/callback`,
       scope: ['user:email'],
       passReqToCallback: true,
       proxy: true // Add this if you're behind a proxy
