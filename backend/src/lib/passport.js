@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const callbackBase = process.env.SERVER_URL + "/api/auth";
+console.log(callbackBase);
 
 // In passport.js, update the Google strategy:
 passport.use(
