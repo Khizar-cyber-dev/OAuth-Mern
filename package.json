@@ -2,7 +2,7 @@
   "name": "newproject",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "install": "npm install --prefix backend && npm install --prefix frontned",
     "build": "npm run build --prefix frontend",
