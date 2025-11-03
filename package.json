@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "install": "npm install --prefix backend && npm install --prefix frontned",
-    "build": "npm run build --prefix frontend",
+    "build": "npm run build --prefix frontned",
     "start": "node backend/src/server.js",
     "dev": "nodemon backend/src/server.js"
   },
